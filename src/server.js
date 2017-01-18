@@ -1,11 +1,10 @@
-var express = require('express');
-var app = express();
-var server = require('http').createServer(app);
-var io = require('socket.io').listen(server);
-var Hashids = require('hashids');
+const express = require('express');
+const socketIO = require('socket.io');
+const Hashids = require('hashids');
 
+// Variables
+const PORT = process.env.PORT || 3000;
 var hashids = new Hashids();
-var PORT = 3333;
 var session = {
     users: {},
     admins: {},
@@ -13,13 +12,17 @@ var session = {
 };
 
 // Routing
+const app = express();
 app.get('/', function (req, res) {
     res.send('VL server is running.');
 });
 
+const server = app.listen(PORT, function () {
+    console.log('VL server is listening on port ' + PORT + '!');
+});
+
 // Socket.IO
-
-
+const io = socketIO(server);
 io.on('connection', function (socket) {
     console.log((new Date().toLocaleString()) + ': Socket [' + socket.id + '] connected.');
 
@@ -196,8 +199,4 @@ io.on('connection', function (socket) {
         }
         console.log((new Date().toLocaleString()) + ': Socket [' + socket.id + '] disconnected.');
     });
-});
-
-server.listen(PORT, function () {
-    console.log('VL server is listening on port ' + PORT + '!');
 });
