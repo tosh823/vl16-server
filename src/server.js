@@ -1,5 +1,7 @@
-var app = require('http').createServer(handler);
-var io = require('socket.io')(app);
+var express = require('express');
+var app = express();
+var server = require('http').createServer(app);
+var io = require('socket.io')(server);
 var Hashids = require('hashids');
 
 var hashids = new Hashids();
@@ -10,11 +12,12 @@ var session = {
     rooms: {}
 };
 
-function handler(req, res) {
-    res.writeHead(200);
-    res.end('You are not supposed to be here.');
-}
+// Routing
+app.get('/', function (req, res) {
+  res.send('VL server is running.');
+});
 
+// Socket.IO
 io.on('connection', function (socket) {
     console.log((new Date().toLocaleString()) + ': Socket [' + socket.id + '] connected.');
 
@@ -193,5 +196,6 @@ io.on('connection', function (socket) {
     });
 });
 
-app.listen(PORT);
-console.log('Server running on port ' + PORT + '...');
+server.listen(PORT, function () {
+  console.log('VL server is listening on port ' + PORT + '!');
+});
