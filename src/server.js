@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
-var io = require('socket.io')(server);
+var io = require('socket.io').listen(server);
 var Hashids = require('hashids');
 
 var hashids = new Hashids();
@@ -14,10 +14,12 @@ var session = {
 
 // Routing
 app.get('/', function (req, res) {
-  res.send('VL server is running.');
+    res.send('VL server is running.');
 });
 
 // Socket.IO
+
+
 io.on('connection', function (socket) {
     console.log((new Date().toLocaleString()) + ': Socket [' + socket.id + '] connected.');
 
@@ -197,5 +199,5 @@ io.on('connection', function (socket) {
 });
 
 server.listen(PORT, function () {
-  console.log('VL server is listening on port ' + PORT + '!');
+    console.log('VL server is listening on port ' + PORT + '!');
 });
