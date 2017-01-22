@@ -142,7 +142,6 @@ io.on('connection', function (socket) {
 
     socket.on('leaveRoom', function (room) {
         var time = new Date().toLocaleString();
-        console.log(time + ': Received request from socket [' + socket.id + '] to leave room [' + room + ']');
         socket.leave(room);
         socket.broadcast.to(room).emit('leftRoom');
 
@@ -153,11 +152,11 @@ io.on('connection', function (socket) {
                 destroyedTime: time
             });
         });
+        console.log(time + ': Socket [' + socket.id + '] left room [' + room + ']');
     });
 
     socket.on('destroyRoom', function (room) {
         var time = new Date().toLocaleString();
-        console.log(time + ': Received request from socket [' + socket.id + '] to destroy room [' + room + ']');
         var existingRoom = io.sockets.adapter.rooms[room];
         if (existingRoom) {
             var copy = existingRoom.sockets;
@@ -172,9 +171,30 @@ io.on('connection', function (socket) {
                     destroyedTime: time
                 });
             });
+            console.log(time + ': Room [' + room + '] has been destroyed.');
         }
         else {
             console.log(time + ': Room [' + room + '] does not exist.');
+        }
+    });
+
+    socket.on('disconnecting', function () {
+        for (var roomID in socket.rooms) {
+            if (session.rooms[roomID] != null) {
+                // Not default own room of socket
+                var time = new Date().toLocaleString();
+                socket.leave(roomID);
+                socket.broadcast.to(roomID).emit('leftRoom');
+
+                delete session.rooms[roomID];
+                Object.keys(session.admins).map(function (adminID) {
+                    io.to(adminID).emit('roomDestroyed', {
+                        roomID: roomID,
+                        destroyedTime: time
+                    });
+                });
+                console.log(time + ': Socket [' + socket.id + '] left room [' + roomID + ']');
+            }
         }
     });
 
