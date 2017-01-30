@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/tosh823/vl16-server#readme",
   "dependencies": {
+    "axios": "^0.15.3",
+    "cheerio": "^0.22.0",
+    "cors": "^2.8.1",
     "express": "^4.14.0",
     "hashids": "^1.1.1",
     "socket.io": "^1.7.2"

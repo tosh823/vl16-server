@@ -13,9 +13,7 @@ var session = {
 
 // Routing
 const app = express();
-app.get('/', function (req, res) {
-    res.send('VL server is running.');
-});
+app.use(require('./controllers'));
 
 const server = app.listen(PORT, function () {
     console.log('VL server is listening on port ' + PORT + '!');
