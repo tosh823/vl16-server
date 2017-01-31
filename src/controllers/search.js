@@ -10,6 +10,7 @@ const details = '/cgi-bin/koha/opac-detail.pl?biblionumber=';
 const ouluLocation = '&branch_group_limit=branch%3AOUPK';
 
 router.get('/', cors(), function (req, res) {
+    console.log('Received request: ' + req.baseUrl);
     if (req.query.title != null) {
         var query = req.query.title.replace(/ /g, '+');
         var url = koha + search + query + ouluLocation;
@@ -24,16 +25,16 @@ router.get('/', cors(), function (req, res) {
                 var bookInfoPage = $('#catalogue_detail_biblio');
                 var results = [];
                 if (bookInfoPage.length > 0) {
-                    console.log('Parsing one book');
                     var book = parseBookDetailsPage(response.data);
                     results.push(book);
-                    console.log(JSON.stringify(results));
                 }
                 else {
-                    console.log('Parsing books');
                     results = parseSearchResultsPage(response.data);
-                }
-                res.send(results);
+                }   
+                res.send({ 
+                    data: results
+                });
+                console.log('Sent response');
             })
             .catch(function (error) {
                 console.log('Error occured: ' + JSON.stringify(error));
@@ -46,6 +47,7 @@ router.get('/', cors(), function (req, res) {
 });
 
 router.get('/book', cors(), function (req, res) {
+    console.log('Received request: ' + req.baseUrl);
     if (req.query.id != null) {
         var url = koha + details + req.query.id;
         var config = {
@@ -56,7 +58,10 @@ router.get('/book', cors(), function (req, res) {
         axios.get(url, config)
             .then(function (response) {
                 var book = parseBookDetailsPage(response.data);
-                res.send(book);
+                res.send({
+                    data: book
+                });
+                console.log('Sent response');
             })
             .catch(function (error) {
                 console.log('Error occured: ' + JSON.stringify(error));

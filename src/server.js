@@ -16,7 +16,7 @@ const app = express();
 app.use(require('./controllers'));
 
 const server = app.listen(PORT, function () {
-    console.log('VL server is listening on port ' + PORT + '!');
+    console.log('VL server is running on localhost:' + PORT);
 });
 
 // Socket.IO
