@@ -30,8 +30,8 @@ router.get('/', cors(), function (req, res) {
                 }
                 else {
                     results = parseSearchResultsPage(response.data);
-                }   
-                res.send({ 
+                }
+                res.send({
                     data: results
                 });
                 console.log('Sent response');
@@ -80,12 +80,13 @@ function parseBookDetailsPage(page) {
     var holdsInfo = $('.holdingst');
     book['title'] = $(bookInfo).find('.title').text();
     book['cover'] = $(bookInfo).find('.jokunen_image_container').children('img').attr('src');
-    book['authors'] = [];
+    var authors = [];
     $(bookInfo).find('.author').find('span').each(function (index, element) {
         if ($(element).attr('property') == 'name') {
-            book['authors'].push($(element).text());
+            authors.push($(element).text());
         }
     });
+    book['author'] = authors.join(';');
     book['type'] = $(bookInfo).find('.results_summary.type').text();
     book['language'] = $(bookInfo).find('.results_summary.language').children('img').attr('alt');
     book['publisher'] = [];
@@ -140,21 +141,23 @@ function parseSearchResultsPage(page) {
         var materialSpan = $(info, 'span').find('.results_summary');
         var languageSpan = $(info, 'span').find('.results_summary.language');
         var publisherSpan = $(info, 'span').find('.results_summary.publisher');
-        var title = $(titleA).text();
+        var title = $(titleA).text().trim();
         var href = $(titleA).attr('href');
-        var author = $(authorSpan).text();
+        var author = $(authorSpan).text().trim();
         var materialType = $(materialSpan).children('img').attr('alt');
         if (materialType !== 'kirja') return true;
         var language = $(languageSpan).children('img').attr('alt');
-        var publisher = $(publisherSpan).text();
-        searchResults.push({
+        var publisher = $(publisherSpan).text().trim();
+        var book = {
             title: title,
             author: author,
             href: href,
             type: materialType,
             language: language,
             publisher: publisher
-        });
+        };
+        searchResults.push(book);
+        console.log('Book ' + index + ' = ' + JSON.stringify(book));
     });
     return searchResults;
 };
