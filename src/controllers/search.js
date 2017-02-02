@@ -1,5 +1,6 @@
 const express = require('express');
 const axios = require('axios');
+const querystring = require('querystring');
 var cheerio = require('cheerio');
 var cors = require('cors');
 var router = express.Router();
@@ -114,7 +115,6 @@ function parseBookDetailsPage(page) {
     $(holdsInfo).find('tbody').children().each(function (index, element) {
         var library = $(element).find('.location').children('div');
         var libraryName = $(library).text().trim();
-        console.log(libraryName);
         if (libraryName == 'Oulun kaupungin pääkirjasto') {
             // Location fetching
             var locationModel = {};
@@ -127,6 +127,7 @@ function parseBookDetailsPage(page) {
         }
     });
     book['locations'] = removeDuplicates(book);
+    console.log('Book = ' + JSON.stringify(book));
     return book;
 };
 
@@ -143,6 +144,7 @@ function parseSearchResultsPage(page) {
         var publisherSpan = $(info, 'span').find('.results_summary.publisher');
         var title = $(titleA).text().trim();
         var href = $(titleA).attr('href');
+        var bookId = querystring.parse(href, '?')["biblionumber"];
         var author = $(authorSpan).text().trim();
         var materialType = $(materialSpan).children('img').attr('alt');
         if (materialType !== 'kirja') return true;
@@ -151,7 +153,7 @@ function parseSearchResultsPage(page) {
         var book = {
             title: title,
             author: author,
-            href: href,
+            bookId: bookId,
             type: materialType,
             language: language,
             publisher: publisher
