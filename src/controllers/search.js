@@ -59,6 +59,7 @@ router.get('/book', cors(), function (req, res) {
         axios.get(url, config)
             .then(function (response) {
                 var book = parseBookDetailsPage(response.data);
+                book["bookId"] = req.query.id;
                 res.send({
                     data: book
                 });
@@ -90,16 +91,17 @@ function parseBookDetailsPage(page) {
     book['author'] = authors.join(';');
     book['type'] = $(bookInfo).find('.results_summary.type').text();
     book['language'] = $(bookInfo).find('.results_summary.language').children('img').attr('alt');
-    book['publisher'] = [];
+    var pubArray = [];
     $(bookInfo).find('.results_summary.publisher').find('span').each(function (index, element) {
         var property = $(element).attr('property');
         var location = (property == 'location');
         var name = (property == 'name');
         var datePublished = (property == 'datePublished');
         if (location || name || datePublished) {
-            book['publisher'].push($(element).text());
+            pubArray.push($(element).text());
         }
     });
+    book['publisher'] = pubArray.join('');
     $(bookInfo).find('.results_summary.description > *').each(function (index, element) {
         if ($(element).attr('property') == 'description') {
             book['description'] = $(element).text().trim();
