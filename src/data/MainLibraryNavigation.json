@@ -1,0 +1,2800 @@
+{
+  "wayPoints": [
+    {
+      "name": "F2P1",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P28": 2,
+        "F2P2": 5
+      }
+    },
+    {
+      "name": "F2P2",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P1": 5,
+        "F2P3": 13
+      }
+    },
+    {
+      "name": "F2P3",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P2": 13,
+        "F2P127": 4,
+        "F2P128": 2,
+        "F2P132": 4,
+        "F2P133": 3,
+        "F2P34": 6
+      }
+    },
+    {
+      "name": "F2P4",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P5": 3,
+        "F2P6": 6,
+        "F2P13": 2,
+        "F2P133": 2,
+        "F2P172": 3
+      }
+    },
+    {
+      "name": "F2P5",
+      "description": "",
+      "shelfFrom": "84.2 PAL Jännitys",
+      "shelfTo": "84.2 SCH Jännitys",
+      "links": {
+        "F2P4": 3,
+        "F2P6": 3
+      }
+    },
+    {
+      "name": "F2P6",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P4": 6,
+        "F2P5": 3,
+        "F2P7": 3,
+        "F2P8": 7,
+        "F2P11": 2,
+        "F2P131": 2,
+        "F2P172": 3,
+        "F2P173": 3
+      }
+    },
+    {
+      "name": "F2P7",
+      "description": "",
+      "shelfFrom": "84.2 MUT",
+      "shelfTo": "84.2 PAY",
+      "links": {
+        "F2P6": 3,
+        "F2P8": 3
+      }
+    },
+    {
+      "name": "F2P8",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P6": 7,
+        "F2P7": 3,
+        "F2P9": 2,
+        "F2P129": 2,
+        "F2P173": 3
+      }
+    },
+    {
+      "name": "F2P9",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P8": 2,
+        "F2P10": 3,
+        "F2P11": 7,
+        "F2P18": 2,
+        "F2P171": 3
+      }
+    },
+    {
+      "name": "F2P10",
+      "description": "",
+      "shelfFrom": "84.2 LAH",
+      "shelfTo": "84.2 LÄH",
+      "links": {
+        "F2P9": 3,
+        "F2P11": 3
+      }
+    },
+    {
+      "name": "F2P11",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P6": 2,
+        "F2P9": 7,
+        "F2P10": 3,
+        "F2P12": 3,
+        "F2P13": 6,
+        "F2P16": 2,
+        "F2P170": 3,
+        "F2P171": 3
+      }
+    },
+    {
+      "name": "F2P12",
+      "description": "",
+      "shelfFrom": "84.2 J Jännitys",
+      "shelfTo": "84.2 LOV Jännitys",
+      "links": {
+        "F2P11": 3,
+        "F2P13": 3
+      }
+    },
+    {
+      "name": "F2P13",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P4": 2,
+        "F2P11": 6,
+        "F2P12": 3,
+        "F2P14": 2,
+        "F2P170": 3
+      }
+    },
+    {
+      "name": "F2P14",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P13": 2,
+        "F2P15": 3,
+        "F2P16": 6,
+        "F2P23": 2,
+        "F2P168": 3
+      }
+    },
+    {
+      "name": "F2P15",
+      "description": "",
+      "shelfFrom": "84.2 BRO Jännitys",
+      "shelfTo": "84.2 FIE Jännitys",
+      "links": {
+        "F2P14": 3,
+        "F2P16": 3
+      }
+    },
+    {
+      "name": "F2P16",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P11": 2,
+        "F2P14": 6,
+        "F2P15": 3,
+        "F2P17": 3,
+        "F2P18": 7,
+        "F2P21": 2,
+        "F2P168": 3,
+        "F2P169": 3
+      }
+    },
+    {
+      "name": "F2P17",
+      "description": "",
+      "shelfFrom": "84.2 JAM",
+      "shelfTo": "84.2 KIH",
+      "links": {
+        "F2P16": 3,
+        "F2P18": 3
+      }
+    },
+    {
+      "name": "F2P18",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P9": 2,
+        "F2P16": 7,
+        "F2P17": 3,
+        "F2P19": 2,
+        "F2P169": 3
+      }
+    },
+    {
+      "name": "F2P19",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P20": 3,
+        "F2P18": 2,
+        "F2P28": 2,
+        "F2P21": 7,
+        "F2P166": 3
+      }
+    },
+    {
+      "name": "F2P20",
+      "description": "",
+      "shelfFrom": "84.2 GOR",
+      "shelfTo": "84.2 HIR",
+      "links": {
+        "F2P21": 3,
+        "F2P19": 3
+      }
+    },
+    {
+      "name": "F2P21",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P16": 2,
+        "F2P19": 7,
+        "F2P20": 3,
+        "F2P22": 3,
+        "F2P23": 6,
+        "F2P26": 2,
+        "F2P166": 3,
+        "F2P167": 3
+      }
+    },
+    {
+      "name": "F2P22",
+      "description": "",
+      "shelfFrom": "83.2 SHA|84.2 > Novellit",
+      "shelfTo": "83.2 <|84.2 NOV Novellit ",
+      "links": {
+        "F2P23": 3,
+        "F2P21": 3
+      }
+    },
+    {
+      "name": "F2P23",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P14": 2,
+        "F2P21": 6,
+        "F2P22": 3,
+        "F2P24": 2,
+        "F2P167": 3
+      }
+    },
+    {
+      "name": "F2P24",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P23": 2,
+        "F2P25": 3,
+        "F2P32": 2,
+        "F2P26": 6,
+        "F2P164": 3
+      }
+    },
+    {
+      "name": "F2P25",
+      "description": "",
+      "shelfFrom": "82.2 LAI",
+      "shelfTo": "82.2 SAC",
+      "links": {
+        "F2P24": 3,
+        "F2P26": 3
+      }
+    },
+    {
+      "name": "F2P26",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P21": 2,
+        "F2P24": 6,
+        "F2P25": 3,
+        "F2P27": 3,
+        "F2P28": 7,
+        "F2P31": 2,
+        "F2P164": 3,
+        "F2P165": 3
+      }
+    },
+    {
+      "name": "F2P27",
+      "description": "",
+      "shelfFrom": "84.2 BRU",
+      "shelfTo": "84.2 DUN",
+      "links": {
+        "F2P26": 3,
+        "F2P28": 3
+      }
+    },
+    {
+      "name": "F2P28",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P27": 3,
+        "F2P19": 2,
+        "F2P29": 2,
+        "F2P26": 7,
+        "F2P165": 3
+      }
+    },
+    {
+      "name": "F2P29",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P30": 3,
+        "F2P28": 2,
+        "F2P31": 7
+      }
+    },
+    {
+      "name": "F2P30",
+      "description": "BRU",
+      "shelfFrom": "84.2 >",
+      "shelfTo": "84.2 BRU",
+      "links": {
+        "F2P31": 3,
+        "F2P29": 3
+      }
+    },
+    {
+      "name": "F2P31",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P31_1": 3,
+        "F2P30": 3,
+        "F2P26": 2,
+        "F2P29": 7,
+        "F2P32": 6
+      }
+    },
+    {
+      "name": "F2P31_1",
+      "description": "",
+      "shelfFrom": "82.2 >",
+      "shelfTo": "82.2 LAI",
+      "links": {
+        "F2P32": 3,
+        "F2P31": 3
+      }
+    },
+    {
+      "name": "F2P32",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P24": 2,
+        "F2P31": 6,
+        "F2P31_1": 3
+      }
+    },
+    {
+      "name": "F2P33",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P124": 2,
+        "F2P125": 5,
+        "F2P129": 3,
+        "F2P130": 5
+      }
+    },
+    {
+      "name": "F2P34",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P3": 6,
+        "F2P125": 5,
+        "F2P126": 2,
+        "F2P127": 5,
+        "F2P130": 5,
+        "F2P131": 3,
+        "F2P132": 5
+      }
+    },
+    {
+      "name": "F2P35",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P36": 3,
+        "F2P37": 7,
+        "F2P44": 2,
+        "F2P72": 9,
+        "F2P73": 7,
+        "F2P74": 6
+      }
+    },
+    {
+      "name": "F2P36",
+      "description": "",
+      "shelfFrom": "32.182",
+      "shelfTo": "32.6",
+      "links": {
+        "F2P37": 3,
+        "F2P35": 3
+      }
+    },
+    {
+      "name": "F2P37",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P35": 7,
+        "F2P36": 3,
+        "F2P38": 3,
+        "F2P39": 6,
+        "F2P42": 2,
+        "F2P70": 9,
+        "F2P71": 7,
+        "F2P72": 6,
+        "F2P73": 7,
+        "F2P74": 9
+      }
+    },
+    {
+      "name": "F2P38",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P39": 3,
+        "F2P37": 3
+      }
+    },
+    {
+      "name": "F2P39",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P37": 6,
+        "F2P38": 3,
+        "F2P40": 2,
+        "F2P70": 6,
+        "F2P71": 7,
+        "F2P72": 9,
+        "F2P158": 6
+      }
+    },
+    {
+      "name": "F2P40",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P39": 2,
+        "F2P41": 3,
+        "F2P42": 6,
+        "F2P49": 2,
+        "F2P146": 5,
+        "F2P195": 3
+      }
+    },
+    {
+      "name": "F2P41",
+      "description": "",
+      "shelfFrom": "60 >",
+      "shelfTo": "61.72 KOK",
+      "links": {
+        "F2P42": 3,
+        "F2P40": 3
+      }
+    },
+    {
+      "name": "F2P42",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P37": 2,
+        "F2P40": 6,
+        "F2P41": 3,
+        "F2P43": 3,
+        "F2P44": 7,
+        "F2P47": 2,
+        "F2P194": 3,
+        "F2P195": 3
+      }
+    },
+    {
+      "name": "F2P43",
+      "description": "",
+      "shelfFrom": "32.6 >",
+      "shelfTo": "33.4 KIV",
+      "links": {
+        "F2P44": 3,
+        "F2P42": 3
+      }
+    },
+    {
+      "name": "F2P44",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P35": 2,
+        "F2P42": 7,
+        "F2P43": 3,
+        "F2P45": 2,
+        "F2P194": 3
+      }
+    },
+    {
+      "name": "F2P45",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P44": 2,
+        "F2P46": 3,
+        "F2P47": 7,
+        "F2P64": 2,
+        "F2P196": 3
+      }
+    },
+    {
+      "name": "F2P46",
+      "description": "",
+      "shelfFrom": "36.13 >",
+      "shelfTo": "37.2 SOS",
+      "links": {
+        "F2P47": 3,
+        "F2P45": 3
+      }
+    },
+    {
+      "name": "F2P47",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P42": 2,
+        "F2P45": 7,
+        "F2P46": 3,
+        "F2P48": 3,
+        "F2P49": 6,
+        "F2P62": 2,
+        "F2P196": 3,
+        "F2P197": 3
+      }
+    },
+    {
+      "name": "F2P48",
+      "description": "",
+      "shelfFrom": "62.5112",
+      "shelfTo": "62.55",
+      "links": {
+        "F2P49": 3,
+        "F2P47": 3
+      }
+    },
+    {
+      "name": "F2P49",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P40": 2,
+        "F2P47": 6,
+        "F2P48": 3,
+        "F2P60": 2,
+        "F2P146": 5,
+        "F2P197": 3
+      }
+    },
+    {
+      "name": "F2P50",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P51": 3,
+        "F2P52": 6,
+        "F2P59": 2,
+        "F2P69": 2,
+        "F2P140": 3,
+        "F2P202": 3
+      }
+    },
+    {
+      "name": "F2P51",
+      "description": "",
+      "shelfFrom": "68.2 LEM",
+      "shelfTo": "68.4 <",
+      "links": {
+        "F2P50": 3,
+        "F2P52": 3
+      }
+    },
+    {
+      "name": "F2P52",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P50": 6,
+        "F2P51": 3,
+        "F2P53": 3,
+        "F2P54": 7,
+        "F2P57": 2,
+        "F2P67": 2,
+        "F2P202": 3,
+        "F2P203": 3
+      }
+    },
+    {
+      "name": "F2P53",
+      "description": "",
+      "shelfFrom": "46.2",
+      "shelfTo": "48.14",
+      "links": {
+        "F2P52": 3,
+        "F2P54": 3
+      }
+    },
+    {
+      "name": "F2P54",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P52": 7,
+        "F2P53": 3,
+        "F2P55": 2,
+        "F2P65": 2,
+        "F2P203": 3
+      }
+    },
+    {
+      "name": "F2P55",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P54": 2,
+        "F2P56": 3,
+        "F2P57": 7,
+        "F2P64": 2,
+        "F2P200": 3
+      }
+    },
+    {
+      "name": "F2P56",
+      "description": "",
+      "shelfFrom": "40.8 >",
+      "shelfTo": "42.8 LAM",
+      "links": {
+        "F2P55": 3,
+        "F2P57": 3
+      }
+    },
+    {
+      "name": "F2P57",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P52": 2,
+        "F2P55": 7,
+        "F2P56": 3,
+        "F2P58": 3,
+        "F2P59": 6,
+        "F2P62": 2,
+        "F2P200": 3,
+        "F2P201": 3
+      }
+    },
+    {
+      "name": "F2P58",
+      "description": "",
+      "shelfFrom": "67.3 LII",
+      "shelfTo": "67.452 HAI",
+      "links": {
+        "F2P57": 3,
+        "F2P59": 3
+      }
+    },
+    {
+      "name": "F2P59",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P50": 2,
+        "F2P57": 6,
+        "F2P58": 3,
+        "F2P60": 2,
+        "F2P140": 3,
+        "F2P146": 7,
+        "F2P201": 3
+      }
+    },
+    {
+      "name": "F2P60",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P49": 2,
+        "F2P59": 2,
+        "F2P61": 3,
+        "F2P62": 6,
+        "F2P146": 6,
+        "F2P199": 3
+      }
+    },
+    {
+      "name": "F2P61",
+      "description": "",
+      "shelfFrom": "65.1 WAR",
+      "shelfTo": "66 <",
+      "links": {
+        "F2P60": 3,
+        "F2P62": 3
+      }
+    },
+    {
+      "name": "F2P62",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P47": 2,
+        "F2P57": 2,
+        "F2P60": 6,
+        "F2P61": 3,
+        "F2P63": 3,
+        "F2P64": 7,
+        "F2P198": 3,
+        "F2P199": 3
+      }
+    },
+    {
+      "name": "F2P63",
+      "description": "",
+      "shelfFrom": "38.2 VER",
+      "shelfTo": "39 <",
+      "links": {
+        "F2P62": 3,
+        "F2P64": 3
+      }
+    },
+    {
+      "name": "F2P64",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P45": 2,
+        "F2P55": 2,
+        "F2P62": 7,
+        "F2P63": 3,
+        "F2P198": 3
+      }
+    },
+    {
+      "name": "F2P65",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P54": 2,
+        "F2P66": 3,
+        "F2P67": 7
+      }
+    },
+    {
+      "name": "F2P66",
+      "description": "",
+      "shelfFrom": "48.38 GVE",
+      "shelfTo": "49.5 <",
+      "links": {
+        "F2P67": 3,
+        "F2P65": 3
+      }
+    },
+    {
+      "name": "F2P67",
+      "description": "",
+      "shelfFrom": "70",
+      "shelfTo": "74.3",
+      "links": {
+        "F2P52": 2,
+        "F2P65": 7,
+        "F2P66": 3,
+        "F2P68": 3,
+        "F2P69": 6
+      }
+    },
+    {
+      "name": "F2P68",
+      "description": "",
+      "shelfFrom": "69.11 SET",
+      "shelfTo": "70 <",
+      "links": {
+        "F2P69": 3,
+        "F2P67": 3
+      }
+    },
+    {
+      "name": "F2P69",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P50": 2,
+        "F2P67": 6,
+        "F2P68": 3,
+        "F2P134": 5,
+        "F2P140": 5
+      }
+    },
+    {
+      "name": "F2P70",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P37": 9,
+        "F2P38": 7,
+        "F2P39": 6,
+        "F2P71": 3,
+        "F2P72": 6,
+        "F2P80": 2,
+        "F2P158": 8
+      }
+    },
+    {
+      "name": "F2P71",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P70": 3,
+        "F2P72": 3
+      }
+    },
+    {
+      "name": "F2P72",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P35": 9,
+        "F2P36": 7,
+        "F2P37": 6,
+        "F2P38": 7,
+        "F2P39": 9,
+        "F2P70": 6,
+        "F2P71": 3,
+        "F2P73": 3,
+        "F2P74": 7,
+        "F2P78": 2
+      }
+    },
+    {
+      "name": "F2P73",
+      "description": "",
+      "shelfFrom": "30.1 SHA",
+      "shelfTo": "32.182 <",
+      "links": {
+        "F2P72": 3,
+        "F2P74": 3
+      }
+    },
+    {
+      "name": "F2P74",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P35": 6,
+        "F2P36": 7,
+        "F2P37": 9,
+        "F2P72": 7,
+        "F2P73": 3,
+        "F2P75": 2
+      }
+    },
+    {
+      "name": "F2P75",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P74": 2,
+        "F2P76": 3,
+        "F2P78": 7,
+        "F2P85": 2,
+        "F2P193": 3
+      }
+    },
+    {
+      "name": "F2P76",
+      "description": "",
+      "shelfFrom": "24.1 KAK",
+      "shelfTo": "28.71 <",
+      "links": {
+        "F2P75": 3,
+        "F2P78": 3
+      }
+    },
+    {
+      "name": "F2P78",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P72": 2,
+        "F2P75": 7,
+        "F2P76": 3,
+        "F2P79": 3,
+        "F2P80": 6,
+        "F2P83": 2,
+        "F2P192": 3,
+        "F2P193": 3
+      }
+    },
+    {
+      "name": "F2P79",
+      "description": "",
+      "shelfFrom": "59.35 LOW",
+      "shelfTo": "59.55 KOS",
+      "links": {
+        "F2P78": 3,
+        "F2P80": 3
+      }
+    },
+    {
+      "name": "F2P80",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P70": 2,
+        "F2P78": 6,
+        "F2P79": 3,
+        "F2P81": 2,
+        "F2P192": 3
+      }
+    },
+    {
+      "name": "F2P81",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P80": 2,
+        "F2P82": 3,
+        "F2P83": 6,
+        "F2P99": 2,
+        "F2P191": 3
+      }
+    },
+    {
+      "name": "F2P82",
+      "description": "",
+      "shelfFrom": "58.12 TIP",
+      "shelfTo": "59.24 <",
+      "links": {
+        "F2P81": 3,
+        "F2P83": 3
+      }
+    },
+    {
+      "name": "F2P83",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P78": 2,
+        "F2P81": 6,
+        "F2P82": 3,
+        "F2P84": 3,
+        "F2P85": 7,
+        "F2P97": 2,
+        "F2P190": 3,
+        "F2P191": 3
+      }
+    },
+    {
+      "name": "F2P84",
+      "description": "",
+      "shelfFrom": "17.1 PIE",
+      "shelfTo": "22 <",
+      "links": {
+        "F2P83": 3,
+        "F2P85": 3
+      }
+    },
+    {
+      "name": "F2P85",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P75": 2,
+        "F2P83": 7,
+        "F2P84": 3,
+        "F2P95": 2,
+        "F2P190": 3
+      }
+    },
+    {
+      "name": "F2P86",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P87": 3,
+        "F2P94": 2,
+        "F2P103": 2,
+        "F2P184": 3
+      }
+    },
+    {
+      "name": "F2P87",
+      "description": "",
+      "shelfFrom": "84.61 REG|84.62|82.7|84.71 >",
+      "shelfTo": "84.62 <|84.63|82.7|84.71 DEL",
+      "links": {
+        "F2P86": 3,
+        "F2P214": 3
+      }
+    },
+    {
+      "name": "F2P88",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P89": 3,
+        "F2P214": 3
+      }
+    },
+    {
+      "name": "F2P89",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P88": 3,
+        "F2P90": 2,
+        "F2P100": 2,
+        "F2P185": 3
+      }
+    },
+    {
+      "name": "F2P90",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P89": 2,
+        "F2P91": 3,
+        "F2P92": 6,
+        "F2P99": 2,
+        "F2P187": 2
+      }
+    },
+    {
+      "name": "F2P91",
+      "description": "",
+      "shelfFrom": "50",
+      "shelfTo": "52",
+      "links": {
+        "F2P92": 3,
+        "F2P90": 3
+      }
+    },
+    {
+      "name": "F2P92",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P90": 6,
+        "F2P91": 3,
+        "F2P93": 3,
+        "F2P94": 7,
+        "F2P97": 2,
+        "F2P186": 5,
+        "F2P187": 4,
+        "F2P214": 4
+      }
+    },
+    {
+      "name": "F2P93",
+      "description": "",
+      "shelfFrom": "00 >",
+      "shelfTo": "07.2 TEL",
+      "links": {
+        "F2P94": 3,
+        "F2P92": 3
+      }
+    },
+    {
+      "name": "F2P94",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P86": 2,
+        "F2P92": 7,
+        "F2P93": 3,
+        "F2P95": 2,
+        "F2P186": 2
+      }
+    },
+    {
+      "name": "F2P95",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P85": 2,
+        "F2P94": 2,
+        "F2P96": 3,
+        "F2P97": 7,
+        "F2P188": 3
+      }
+    },
+    {
+      "name": "F2P96",
+      "description": "",
+      "shelfFrom": "07.2 TEL",
+      "shelfTo": "14.4 LIN",
+      "links": {
+        "F2P97": 3,
+        "F2P95": 3
+      }
+    },
+    {
+      "name": "F2P97",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P83": 2,
+        "F2P92": 2,
+        "F2P95": 7,
+        "F2P96": 3,
+        "F2P98": 3,
+        "F2P99": 6,
+        "F2P188": 3,
+        "F2P189": 3
+      }
+    },
+    {
+      "name": "F2P98",
+      "description": "",
+      "shelfFrom": "52",
+      "shelfTo": "56.4",
+      "links": {
+        "F2P99": 3,
+        "F2P97": 3
+      }
+    },
+    {
+      "name": "F2P99",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P81": 2,
+        "F2P90": 2,
+        "F2P97": 6,
+        "F2P98": 3,
+        "F2P189": 3
+      }
+    },
+    {
+      "name": "F2P100",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P89": 2,
+        "F2P101": 3,
+        "F2P108": 2,
+        "F2P182": 3
+      }
+    },
+    {
+      "name": "F2P101",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P100": 3,
+        "F2P214": 4
+      }
+    },
+    {
+      "name": "F2P102",
+      "description": "",
+      "shelfFrom": "84.5 MAR",
+      "shelfTo": "84.5 STR",
+      "links": {
+        "F2P103": 3,
+        "F2P214": 4
+      }
+    },
+    {
+      "name": "F2P103",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P86": 2,
+        "F2P102": 3,
+        "F2P104": 2,
+        "F2P183": 3
+      }
+    },
+    {
+      "name": "F2P104",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P103": 2,
+        "F2P105": 3,
+        "F2P106": 7,
+        "F2P113": 2,
+        "F2P181": 2
+      }
+    },
+    {
+      "name": "F2P105",
+      "description": "",
+      "shelfFrom": "84.5 WAR Fantasia|84.5 WAR Scifi|84.5 > Jännitys|84.5 >",
+      "shelfTo": "84.5 < Fantasia|84.5 < Scifi|84.5 < Jännitys|84.5 PIE",
+      "links": {
+        "F2P104": 3,
+        "F2P106": 3
+      }
+    },
+    {
+      "name": "F2P106",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P214": 3,
+        "F2P104": 7,
+        "F2P105": 3,
+        "F2P107": 3,
+        "F2P108": 6,
+        "F2P111": 2,
+        "F2P180": 4,
+        "F2P181": 5
+      }
+    },
+    {
+      "name": "F2P107",
+      "description": "",
+      "shelfFrom": "84.2 ROB Scifi|84.2 ROB Fantasia",
+      "shelfTo": "84.2 > Scifi|84.2 > Fantasia",
+      "links": {
+        "F2P106": 3,
+        "F2P108": 3
+      }
+    },
+    {
+      "name": "F2P108",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P100": 2,
+        "F2P106": 6,
+        "F2P107": 3,
+        "F2P109": 2,
+        "F2P180": 2
+      }
+    },
+    {
+      "name": "F2P109",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P108": 2,
+        "F2P110": 3,
+        "F2P111": 6,
+        "F2P118": 2,
+        "F2P178": 3
+      }
+    },
+    {
+      "name": "F2P110",
+      "description": "",
+      "shelfFrom": "84.2 RAN Sota|84.2 > Erä|84.2 > Scifi|84.2 > Fantasia",
+      "shelfTo": "84.2 > Sota|84.2 < Erä|84.2 ELT Scifi|84.2 ELT Fantasia",
+      "links": {
+        "F2P111": 3,
+        "F2P109": 3
+      }
+    },
+    {
+      "name": "F2P111",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P106": 2,
+        "F2P109": 6,
+        "F2P110": 3,
+        "F2P112": 3,
+        "F2P113": 7,
+        "F2P116": 2,
+        "F2P178": 3,
+        "F2P179": 3
+      }
+    },
+    {
+      "name": "F2P112",
+      "description": "",
+      "shelfFrom": "84.31 MO|82.4|84.4 >",
+      "shelfTo": "84.31 <|82.4|LIN",
+      "links": {
+        "F2P113": 3,
+        "F2P111": 3
+      }
+    },
+    {
+      "name": "F2P113",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P104": 2,
+        "F2P111": 7,
+        "F2P112": 3,
+        "F2P114": 2,
+        "F2P179": 3
+      }
+    },
+    {
+      "name": "F2P114",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P113": 2,
+        "F2P115": 3,
+        "F2P116": 7,
+        "F2P123": 2,
+        "F2P176": 3
+      }
+    },
+    {
+      "name": "F2P115",
+      "description": "",
+      "shelfFrom": "84.2 VIT|82.23|84.23|82.31|84.31 > Jännitys",
+      "shelfTo": "84.2 <|82.3|84.3|82.31|84.31 MAR Jännitys",
+      "links": {
+        "F2P114": 3,
+        "F2P116": 3
+      }
+    },
+    {
+      "name": "F2P116",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P111": 2,
+        "F2P114": 7,
+        "F2P115": 3,
+        "F2P117": 3,
+        "F2P118": 6,
+        "F2P121": 2,
+        "F2P176": 3,
+        "F2P177": 3
+      }
+    },
+    {
+      "name": "F2P117",
+      "description": "",
+      "shelfFrom": "84.2 P Romantiikka",
+      "shelfTo": "84.2 TRO Romantiikka",
+      "links": {
+        "F2P116": 3,
+        "F2P118": 3
+      }
+    },
+    {
+      "name": "F2P118",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P109": 2,
+        "F2P116": 6,
+        "F2P117": 3,
+        "F2P119": 2,
+        "F2P177": 3
+      }
+    },
+    {
+      "name": "F2P119",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P118": 2,
+        "F2P120": 3,
+        "F2P121": 6,
+        "F2P128": 2,
+        "F2P175": 3
+      }
+    },
+    {
+      "name": "F2P120",
+      "description": "",
+      "shelfFrom": "84.2 > Romantiikka",
+      "shelfTo": "84.2 H Romantiikka",
+      "links": {
+        "F2P121": 3,
+        "F2P119": 3
+      }
+    },
+    {
+      "name": "F2P121",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P116": 2,
+        "F2P119": 6,
+        "F2P120": 3,
+        "F2P122": 3,
+        "F2P123": 7,
+        "F2P126": 2,
+        "F2P174": 3,
+        "F2P175": 3
+      }
+    },
+    {
+      "name": "F2P122",
+      "description": "",
+      "shelfFrom": "84.2 SUN",
+      "shelfTo": "84.2 TUR",
+      "links": {
+        "F2P123": 3,
+        "F2P121": 3
+      }
+    },
+    {
+      "name": "F2P123",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P114": 2,
+        "F2P122": 3,
+        "F2P124": 2,
+        "F2P121": 7,
+        "F2P174": 3
+      }
+    },
+    {
+      "name": "F2P124",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P33": 2,
+        "F2P123": 2,
+        "F2P125": 3,
+        "F2P126": 7
+      }
+    },
+    {
+      "name": "F2P125",
+      "description": "",
+      "shelfFrom": "84.2 SCO",
+      "shelfTo": "84.2 SUN",
+      "links": {
+        "F2P124": 3,
+        "F2P126": 3
+      }
+    },
+    {
+      "name": "F2P126",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P34": 2,
+        "F2P121": 2,
+        "F2P124": 7,
+        "F2P125": 3,
+        "F2P127": 3,
+        "F2P128": 6
+      }
+    },
+    {
+      "name": "F2P127",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P126": 3,
+        "F2P128": 3
+      }
+    },
+    {
+      "name": "F2P128",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P3": 2,
+        "F2P127": 3,
+        "F2P119": 2,
+        "F2P126": 6,
+        "F2P2": 13
+      }
+    },
+    {
+      "name": "F2P129",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P130": 3,
+        "F2P8": 2,
+        "F2P33": 3
+      }
+    },
+    {
+      "name": "F2P130",
+      "description": "",
+      "shelfFrom": "84.2 RAY",
+      "shelfTo": "84.2 SCO",
+      "links": {
+        "F2P131": 3,
+        "F2P129": 3
+      }
+    },
+    {
+      "name": "F2P131",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P6": 2,
+        "F2P34": 3,
+        "F2P129": 7,
+        "F2P130": 3,
+        "F2P132": 3,
+        "F2P133": 6
+      }
+    },
+    {
+      "name": "F2P132",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P133": 3,
+        "F2P131": 3
+      }
+    },
+    {
+      "name": "F2P133",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P2": 13,
+        "F2P3": 3,
+        "F2P4": 2,
+        "F2P131": 6,
+        "F2P132": 3
+      }
+    },
+    {
+      "name": "F2P134",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P69": 5,
+        "F2P135": 2,
+        "F2P141": 3,
+        "F2P146": 10,
+        "F2P204": 3
+      }
+    },
+    {
+      "name": "F2P135",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P134": 2,
+        "F2P136": 2,
+        "F2P145": 3,
+        "F2P205": 2
+      }
+    },
+    {
+      "name": "F2P136",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P135": 2,
+        "F2P137": 2,
+        "F2P207": 2,
+        "F2P208": 2
+      }
+    },
+    {
+      "name": "F2P137",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P136": 2,
+        "F2P138": 2,
+        "F2P142": 3,
+        "F2P206": 2
+      }
+    },
+    {
+      "name": "F2P138",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P137": 2,
+        "F2P139": 2,
+        "F2P143": 3,
+        "F2P209": 3
+      }
+    },
+    {
+      "name": "F2P139",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P138": 2,
+        "F2P144": 3
+      }
+    },
+    {
+      "name": "F2P140",
+      "description": "",
+      "shelfFrom": "74.9",
+      "shelfTo": "75.7",
+      "links": {
+        "F2P50": 3,
+        "F2P59": 3,
+        "F2P69": 5
+      }
+    },
+    {
+      "name": "F2P141",
+      "description": "",
+      "shelfFrom": "75.7 >",
+      "shelfTo": "76.9 FIE",
+      "links": {
+        "F2P134": 3,
+        "F2P146": 7
+      }
+    },
+    {
+      "name": "F2P142",
+      "description": "",
+      "shelfFrom": "86.12 >",
+      "shelfTo": "86.2 RAH",
+      "links": {
+        "F2P145": 5,
+        "F2P137": 3,
+        "F2P150": 7,
+        "F2P149": 7
+      }
+    },
+    {
+      "name": "F2P143",
+      "description": "",
+      "shelfFrom": "86.2 RAH",
+      "shelfTo": "86.4 <",
+      "links": {
+        "F2P138": 3,
+        "F2P151": 7,
+        "F2P210": 7
+      }
+    },
+    {
+      "name": "F2P144",
+      "description": "",
+      "shelfFrom": "86.71 TSE|88.4038",
+      "shelfTo": "87 <|88.5038",
+      "links": {
+        "F2P139": 3,
+        "F2P152": 7,
+        "F2P163": 3,
+        "F2P212": 7
+      }
+    },
+    {
+      "name": "F2P145",
+      "description": "",
+      "shelfFrom": "77.492 SUO",
+      "shelfTo": "79.3 <",
+      "links": {
+        "F2P135": 3,
+        "F2P148": 7,
+        "F2P142": 5
+      }
+    },
+    {
+      "name": "F2P146",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P40": 5,
+        "F2P49": 5,
+        "F2P60": 6,
+        "F2P141": 7,
+        "F2P147": 3,
+        "F2P148": 4
+      }
+    },
+    {
+      "name": "F2P147",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P146": 3,
+        "F2P148": 3
+      }
+    },
+    {
+      "name": "F2P148",
+      "description": "",
+      "shelfFrom": "99.139 KAI",
+      "shelfTo": "99.139 <",
+      "links": {
+        "F2P146": 4,
+        "F2P147": 3,
+        "F2P145": 7
+      }
+    },
+    {
+      "name": "F2P149",
+      "description": "",
+      "shelfFrom": "99.13 KEM|99.139 >",
+      "shelfTo": "99.13 <|99.139 KAI",
+      "links": {
+        "F2P150": 1,
+        "F2P157": 6,
+        "F2P142": 7
+      }
+    },
+    {
+      "name": "F2P150",
+      "description": "",
+      "shelfFrom": "99.1 SEP|99.12 >",
+      "shelfTo": "99.1 <|99.13 KEM",
+      "links": {
+        "F2P142": 7,
+        "F2P157": 6,
+        "F2P149": 1
+      }
+    },
+    {
+      "name": "F2P151",
+      "description": "",
+      "shelfFrom": "97.1 >",
+      "shelfTo": "99.1 HEI",
+      "links": {
+        "F2P143": 7,
+        "F2P156": 6,
+        "F2P209": 7,
+        "F2P211": 6
+      }
+    },
+    {
+      "name": "F2P152",
+      "description": "",
+      "shelfFrom": "92.88 KAL",
+      "shelfTo": "97.1 <",
+      "links": {
+        "F2P144": 7,
+        "F2P155": 6,
+        "F2P213": 6
+      }
+    },
+    {
+      "name": "F2P153",
+      "description": "",
+      "shelfFrom": "92.71",
+      "shelfTo": "92.74",
+      "links": {
+        "F2P163": 7,
+        "F2P154": 6
+      }
+    },
+    {
+      "name": "F2P154",
+      "description": "",
+      "shelfFrom": "92 LAI",
+      "shelfTo": "92.71 <",
+      "links": {
+        "F2P153": 6,
+        "F2P159": 4
+      }
+    },
+    {
+      "name": "F2P155",
+      "description": "",
+      "shelfFrom": "90 >",
+      "shelfTo": "90.35 REI",
+      "links": {
+        "F2P152": 6,
+        "F2P160": 4,
+        "F2P212": 6
+      }
+    },
+    {
+      "name": "F2P156",
+      "description": "",
+      "shelfFrom": "89.63",
+      "shelfTo": "90",
+      "links": {
+        "F2P151": 6,
+        "F2P161": 4,
+        "F2P210": 6
+      }
+    },
+    {
+      "name": "F2P157",
+      "description": "",
+      "shelfFrom": "87",
+      "shelfTo": "89.5",
+      "links": {
+        "F2P158": 6,
+        "F2P162": 4,
+        "F2P150": 6,
+        "F2P149": 6
+      }
+    },
+    {
+      "name": "F2P158",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P157": 6,
+        "F2P162": 7,
+        "F2P70": 8,
+        "F2P39": 6
+      }
+    },
+    {
+      "name": "F2P159",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P154": 4,
+        "F2P160": 2
+      }
+    },
+    {
+      "name": "F2P160",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P155": 4,
+        "F2P159": 2,
+        "F2P161": 2,
+        "F2P213": 4
+      }
+    },
+    {
+      "name": "F2P161",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P156": 4,
+        "F2P160": 2,
+        "F2P162": 2,
+        "F2P211": 4
+      }
+    },
+    {
+      "name": "F2P162",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P70": 12,
+        "F2P149": 11,
+        "F2P157": 4,
+        "F2P158": 7,
+        "F2P161": 2
+      }
+    },
+    {
+      "name": "F2P163",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P144": 3,
+        "F2P153": 7
+      }
+    },
+    {
+      "name": "F2P164",
+      "description": "",
+      "shelfFrom": "82.2 SAC|83.2 >",
+      "shelfTo": "82.2 <|83.2 SHA",
+      "links": {
+        "F2P24": 3,
+        "F2P26": 3
+      }
+    },
+    {
+      "name": "F2P165",
+      "description": "",
+      "shelfFrom": "84.2 DUN",
+      "shelfTo": "84.2 GOR",
+      "links": {
+        "F2P26": 3,
+        "F2P28": 3
+      }
+    },
+    {
+      "name": "F2P166",
+      "description": "",
+      "shelfFrom": "84.2 HIR",
+      "shelfTo": "84.2 JAM",
+      "links": {
+        "F2P21": 3,
+        "F2P19": 3
+      }
+    },
+    {
+      "name": "F2P167",
+      "description": "",
+      "shelfFrom": "84.2 NOV Novellit|84.2 > Jännitys",
+      "shelfTo": "84.2 < Novellit|84.2 BRO Jännitys",
+      "links": {
+        "F2P23": 3,
+        "F2P21": 3
+      }
+    },
+    {
+      "name": "F2P168",
+      "description": "",
+      "shelfFrom": "84.2 FIE Jännitys",
+      "shelfTo": "84.2 J Jännitys",
+      "links": {
+        "F2P14": 3,
+        "F2P16": 3
+      }
+    },
+    {
+      "name": "F2P169",
+      "description": "",
+      "shelfFrom": "84.2 KIH",
+      "shelfTo": "84.2 LAH",
+      "links": {
+        "F2P16": 3,
+        "F2P18": 3
+      }
+    },
+    {
+      "name": "F2P170",
+      "description": "",
+      "shelfFrom": "84.2 LOV Jännitys",
+      "shelfTo": "84.2 PAL Jännitys",
+      "links": {
+        "F2P11": 3,
+        "F2P13": 3
+      }
+    },
+    {
+      "name": "F2P171",
+      "description": "",
+      "shelfFrom": "84.2 LÄH",
+      "shelfTo": "84.2 MUT",
+      "links": {
+        "F2P9": 3,
+        "F2P11": 3
+      }
+    },
+    {
+      "name": "F2P172",
+      "description": "",
+      "shelfFrom": "84.2 SCH Jännitys",
+      "shelfTo": "84.2 < Jännitys",
+      "links": {
+        "F2P4": 3,
+        "F2P6": 3
+      }
+    },
+    {
+      "name": "F2P173",
+      "description": "",
+      "shelfFrom": "84.2 PAY",
+      "shelfTo": "84.2 RAY",
+      "links": {
+        "F2P6": 3,
+        "F2P8": 3
+      }
+    },
+    {
+      "name": "F2P174",
+      "description": "",
+      "shelfFrom": "84.2 TUR",
+      "shelfTo": "84.2 VIT",
+      "links": {
+        "F2P123": 3,
+        "F2P121": 3
+      }
+    },
+    {
+      "name": "F2P175",
+      "description": "",
+      "shelfFrom": "84.2 H Romantiikka",
+      "shelfTo": "84.2 P Romantiikka",
+      "links": {
+        "F2P121": 3,
+        "F2P119": 3
+      }
+    },
+    {
+      "name": "F2P176",
+      "description": "",
+      "shelfFrom": "84.31 MAR Jännitys|84.31 >",
+      "shelfTo": "84.31 < Jännitys|84.31 MO",
+      "links": {
+        "F2P114": 3,
+        "F2P116": 3
+      }
+    },
+    {
+      "name": "F2P177",
+      "description": "",
+      "shelfFrom": "84.2 TRO Romantiikka|84.2 > Sota",
+      "shelfTo": "84.2 < Romantiikka|84.2 RAN Sota",
+      "links": {
+        "F2P116": 3,
+        "F2P118": 3
+      }
+    },
+    {
+      "name": "F2P178",
+      "description": "",
+      "shelfFrom": "84.2 ELT Scifi|84.2 ELT Fantasia",
+      "shelfTo": "84.2 ROB Scifi|84.2 ROB Fantasia",
+      "links": {
+        "F2P111": 3,
+        "F2P109": 3
+      }
+    },
+    {
+      "name": "F2P179",
+      "description": "",
+      "shelfFrom": "84.4 LIN|84.5 > Scifi|84.5 > Fantasia",
+      "shelfTo": "84.5 <|84.5 WAR Scifi|84.5 WAR Fantasia",
+      "links": {
+        "F2P113": 3,
+        "F2P111": 3
+      }
+    },
+    {
+      "name": "F2P180",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P106": 4,
+        "F2P108": 2
+      }
+    },
+    {
+      "name": "F2P181",
+      "description": "",
+      "shelfFrom": "84.5 PIE",
+      "shelfTo": "84.5 MAR",
+      "links": {
+        "F2P104": 2,
+        "F2P106": 5
+      }
+    },
+    {
+      "name": "F2P182",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P100": 3,
+        "F2P214": 3
+      }
+    },
+    {
+      "name": "F2P183",
+      "description": "",
+      "shelfFrom": "84.5 STR|82.61|84.61 >",
+      "shelfTo": "84.5 <|82.63|84.61 REG",
+      "links": {
+        "F2P103": 3,
+        "F2P214": 3
+      }
+    },
+    {
+      "name": "F2P184",
+      "description": "",
+      "shelfFrom": "84.71 DEL",
+      "shelfTo": "84.71 PET",
+      "links": {
+        "F2P86": 3,
+        "F2P214": 4
+      }
+    },
+    {
+      "name": "F2P185",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P89": 3,
+        "F2P214": 3
+      }
+    },
+    {
+      "name": "F2P186",
+      "description": "",
+      "shelfFrom": "84.71 PET|82.8|84.8",
+      "shelfTo": "84.71 <|82.8|84.8",
+      "links": {
+        "F2P94": 2,
+        "F2P92": 5
+      }
+    },
+    {
+      "name": "F2P187",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P92": 4,
+        "F2P90": 2
+      }
+    },
+    {
+      "name": "F2P188",
+      "description": "",
+      "shelfFrom": "14.4 LIN",
+      "shelfTo": "17.1 PIE",
+      "links": {
+        "F2P97": 3,
+        "F2P95": 3
+      }
+    },
+    {
+      "name": "F2P189",
+      "description": "",
+      "shelfFrom": "56.4 >",
+      "shelfTo": "58.12 TIP",
+      "links": {
+        "F2P99": 3,
+        "F2P97": 3
+      }
+    },
+    {
+      "name": "F2P190",
+      "description": "",
+      "shelfFrom": "22 >",
+      "shelfTo": "24.1 KAK",
+      "links": {
+        "F2P83": 3,
+        "F2P85": 3
+      }
+    },
+    {
+      "name": "F2P191",
+      "description": "",
+      "shelfFrom": "59.24 >",
+      "shelfTo": "59.35 LOW",
+      "links": {
+        "F2P81": 3,
+        "F2P83": 3
+      }
+    },
+    {
+      "name": "F2P192",
+      "description": "",
+      "shelfFrom": "59.55 KOS",
+      "shelfTo": "60 <",
+      "links": {
+        "F2P78": 3,
+        "F2P80": 3
+      }
+    },
+    {
+      "name": "F2P193",
+      "description": "",
+      "shelfFrom": "28.71 >",
+      "shelfTo": "30.1 SHA",
+      "links": {
+        "F2P75": 3,
+        "F2P78": 3
+      }
+    },
+    {
+      "name": "F2P194",
+      "description": "",
+      "shelfFrom": "33.4 KIV",
+      "shelfTo": "36.13 <",
+      "links": {
+        "F2P44": 3,
+        "F2P42": 3
+      }
+    },
+    {
+      "name": "F2P195",
+      "description": "",
+      "shelfFrom": "61.72 KOK",
+      "shelfTo": "62.5112 <",
+      "links": {
+        "F2P42": 3,
+        "F2P40": 3
+      }
+    },
+    {
+      "name": "F2P196",
+      "description": "",
+      "shelfFrom": "37.2 SOS",
+      "shelfTo": "38.2 VER",
+      "links": {
+        "F2P47": 3,
+        "F2P45": 3
+      }
+    },
+    {
+      "name": "F2P197",
+      "description": "",
+      "shelfFrom": "62.55 >",
+      "shelfTo": "65.1 WAR",
+      "links": {
+        "F2P49": 3,
+        "F2P47": 3
+      }
+    },
+    {
+      "name": "F2P198",
+      "description": "",
+      "shelfFrom": "39",
+      "shelfTo": "40.8",
+      "links": {
+        "F2P62": 3,
+        "F2P64": 3
+      }
+    },
+    {
+      "name": "F2P199",
+      "description": "",
+      "shelfFrom": "66 >",
+      "shelfTo": "67.3 LII",
+      "links": {
+        "F2P60": 3,
+        "F2P62": 3
+      }
+    },
+    {
+      "name": "F2P200",
+      "description": "",
+      "shelfFrom": "42.8 LAM|42.82",
+      "shelfTo": "42.82 <|46.2",
+      "links": {
+        "F2P55": 3,
+        "F2P57": 3
+      }
+    },
+    {
+      "name": "F2P201",
+      "description": "",
+      "shelfFrom": "67.452 HAI",
+      "shelfTo": "68.2 LEM",
+      "links": {
+        "F2P57": 3,
+        "F2P59": 3
+      }
+    },
+    {
+      "name": "F2P202",
+      "description": "",
+      "shelfFrom": "68.4 >",
+      "shelfTo": "69.11 SET",
+      "links": {
+        "F2P50": 3,
+        "F2P52": 3
+      }
+    },
+    {
+      "name": "F2P203",
+      "description": "",
+      "shelfFrom": "48.14 >",
+      "shelfTo": "48.38 GVE",
+      "links": {
+        "F2P52": 3,
+        "F2P54": 3
+      }
+    },
+    {
+      "name": "F2P204",
+      "description": "",
+      "shelfFrom": "76.9 FIE",
+      "shelfTo": "77.492 SUO",
+      "links": {
+        "F2P134": 3,
+        "F2P146": 7
+      }
+    },
+    {
+      "name": "F2P205",
+      "description": "",
+      "shelfFrom": "79.3",
+      "shelfTo": "79.6",
+      "links": {
+        "F2P135": 2,
+        "F2P148": 8,
+        "F2P142": 4
+      }
+    },
+    {
+      "name": "F2P206",
+      "description": "",
+      "shelfFrom": "86.1",
+      "shelfTo": "86.12",
+      "links": {
+        "F2P145": 4,
+        "F2P137": 2,
+        "F2P150": 8,
+        "F2P149": 8
+      }
+    },
+    {
+      "name": "F2P207",
+      "description": "",
+      "shelfFrom": "79.6",
+      "shelfTo": "79.9",
+      "links": {
+        "F2P136": 2,
+        "F2P146": 9,
+        "F2P150": 9
+      }
+    },
+    {
+      "name": "F2P208",
+      "description": "",
+      "shelfFrom": "86",
+      "shelfTo": "86.1",
+      "links": {
+        "F2P136": 2,
+        "F2P146": 10,
+        "F2P150": 8
+      }
+    },
+    {
+      "name": "F2P209",
+      "description": "",
+      "shelfFrom": "86.4 >",
+      "shelfTo": "86.71 TSE",
+      "links": {
+        "F2P138": 3,
+        "F2P151": 7,
+        "F2P210": 7
+      }
+    },
+    {
+      "name": "F2P210",
+      "description": "",
+      "shelfFrom": "99.1 HEI",
+      "shelfTo": "99.1 SEP",
+      "links": {
+        "F2P143": 7,
+        "F2P156": 6,
+        "F2P209": 7,
+        "F2P211": 6
+      }
+    },
+    {
+      "name": "F2P211",
+      "description": "",
+      "shelfFrom": "89.5",
+      "shelfTo": "89.63",
+      "links": {
+        "F2P151": 6,
+        "F2P161": 4,
+        "F2P210": 6
+      }
+    },
+    {
+      "name": "F2P212",
+      "description": "",
+      "shelfFrom": "92.74 >",
+      "shelfTo": "92.88 KAL",
+      "links": {
+        "F2P144": 7,
+        "F2P155": 6,
+        "F2P213": 6
+      }
+    },
+    {
+      "name": "F2P213",
+      "description": "",
+      "shelfFrom": "90.35 REI",
+      "shelfTo": "92 LAI",
+      "links": {
+        "F2P152": 6,
+        "F2P160": 4,
+        "F2P212": 6
+      }
+    },
+    {
+      "name": "F2P214",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F2P87": 3,
+        "F2P88": 3,
+        "F2P92": 4,
+        "F2P101": 4,
+        "F2P102": 4,
+        "F2P106": 3,
+        "F2P182": 3,
+        "F2P183": 3,
+        "F2P184": 4,
+        "F2P185": 3
+      }
+    },
+    {
+      "name": "F1P1",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P4": 19,
+        "F1P2": 14
+      }
+    },
+    {
+      "name": "F1P2",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P1": 14,
+        "F1P3": 1
+      }
+    },
+    {
+      "name": "F1P3",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P2": 1,
+        "F1P15": 2
+      }
+    },
+    {
+      "name": "F1P4",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P1": 19,
+        "F1P5": 10,
+        "F1P6": 5
+      }
+    },
+    {
+      "name": "F1P5",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P4": 10,
+        "F1P7": 6,
+        "F1P8": 12
+      }
+    },
+    {
+      "name": "F1P6",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P4": 5,
+        "F1P11": 3
+      }
+    },
+    {
+      "name": "F1P7",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P5": 6
+      }
+    },
+    {
+      "name": "F1P8",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P5": 12,
+        "F1P9": 20
+      }
+    },
+    {
+      "name": "F1P9",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P8": 20,
+        "F1P10": 1
+      }
+    },
+    {
+      "name": "F1P10",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P9": 1,
+        "F1P25": 3
+      }
+    },
+    {
+      "name": "F1P11",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P6": 3,
+        "F1P12": 3,
+        "F1P13": 4
+      }
+    },
+    {
+      "name": "F1P12",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P11": 3,
+        "F1P26": 6
+      }
+    },
+    {
+      "name": "F1P13",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P11": 4,
+        "F1P12": 5,
+        "F1P14": 12,
+        "F1P17": 2,
+        "F1P21": 17
+      }
+    },
+    {
+      "name": "F1P14",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P13": 12,
+        "F1P16": 2,
+        "F1P20": 15
+      }
+    },
+    {
+      "name": "F1P15",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P3": 2,
+        "F1P16": 6
+      }
+    },
+    {
+      "name": "F1P16",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P14": 2,
+        "F1P15": 6,
+        "F1P17": 12
+      }
+    },
+    {
+      "name": "F1P17",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P16": 12,
+        "F1P13": 2,
+        "F1P18": 5,
+        "F1P19": 12
+      }
+    },
+    {
+      "name": "F1P18",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P17": 5,
+        "F1P19": 8
+      }
+    },
+    {
+      "name": "F1P19",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P17": 12,
+        "F1P18": 8,
+        "F1P20": 12
+      }
+    },
+    {
+      "name": "F1P20",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P19": 12,
+        "F1P14": 15
+      }
+    },
+    {
+      "name": "F1P21",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P13": 17,
+        "F1P22": 6,
+        "F1P24": 7
+      }
+    },
+    {
+      "name": "F1P22",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P21": 6,
+        "F1P23": 6
+      }
+    },
+    {
+      "name": "F1P23",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P22": 6,
+        "F1P24": 9,
+        "F1P25": 13
+      }
+    },
+    {
+      "name": "F1P24",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P21": 7,
+        "F1P23": 9
+      }
+    },
+    {
+      "name": "F1P25",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P23": 13,
+        "F1P10": 3
+      }
+    },
+    {
+      "name": "F1P26",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P12": 6,
+        "F1P27": 1
+      }
+    },
+    {
+      "name": "F1P27",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P26": 1,
+        "F1P28": 5
+      }
+    },
+    {
+      "name": "F1P28",
+      "description": "",
+      "shelfFrom": "",
+      "shelfTo": "",
+      "links": {
+        "F1P27": 5,
+        "F2P1": 2
+      }
+    }
+  ]
+}
