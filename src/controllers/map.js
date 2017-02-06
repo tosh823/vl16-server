@@ -9,7 +9,34 @@ navigation['wayPoints'].map(function (value, index) {
 });
 
 router.get('/', cors(), function (req, res) {
-    console.log('Received request: ' + req.url);
+    console.log('Received request: ' + req.baseUrl + req.url);
+    // Looking for <from> and <to> query parameter
+    if (req.query.from != null && req.query.to != null) {
+        var from = req.query.from;
+        var to = req.query.to;
+        var route = findPath(from, to);
+        res.send({
+            data: route
+        });
+        console.log("Sent route = " + JSON.stringify(route));
+    }
+});
+
+router.get('/book', cors(), function (req, res) {
+    console.log('Received request: ' + req.baseUrl + req.url);
+    // Looking for call and collection query parameter
+    if (req.query.call != null) {
+        var call = req.query.call;
+        var collection = (req.query.collection != null ? req.query.collection : null);
+        var shelfs = findShelf({ 
+            callNumber: call,
+            collection: collection
+        });
+        res.send({
+            data: shelfs
+        });
+        console.log("Sent shelfs = " + JSON.stringify(shelfs));
+    }
 });
 
 function findPath(start, destination) {
@@ -113,7 +140,6 @@ function findShelf(location) {
             }
         }
     }
-    console.log('Found ' + JSON.stringify(hits));
     return hits;
 }
 

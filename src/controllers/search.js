@@ -11,7 +11,7 @@ const details = '/cgi-bin/koha/opac-detail.pl?biblionumber=';
 const ouluLocation = '&branch_group_limit=branch%3AOUPK';
 
 router.get('/', cors(), function (req, res) {
-    console.log('Received request: ' + req.baseUrl);
+    console.log('Received request: ' + req.baseUrl + req.url);
     if (req.query.title != null) {
         var query = req.query.title.replace(/ /g, '+');
         var url = koha + search + query + ouluLocation;
@@ -35,7 +35,7 @@ router.get('/', cors(), function (req, res) {
                 res.send({
                     data: results
                 });
-                console.log('Sent response');
+                console.log('Sent ' + results.length + ' books');
             })
             .catch(function (error) {
                 console.log('Error occured: ' + JSON.stringify(error));
@@ -48,7 +48,7 @@ router.get('/', cors(), function (req, res) {
 });
 
 router.get('/book', cors(), function (req, res) {
-    console.log('Received request: ' + req.baseUrl);
+    console.log('Received request: ' + req.baseUrl + req.url);
     if (req.query.id != null) {
         var url = koha + details + req.query.id;
         var config = {
@@ -63,7 +63,7 @@ router.get('/book', cors(), function (req, res) {
                 res.send({
                     data: book
                 });
-                console.log('Sent response');
+                console.log('Sent book = ' + JSON.stringify(book));
             })
             .catch(function (error) {
                 console.log('Error occured: ' + JSON.stringify(error));
@@ -129,7 +129,6 @@ function parseBookDetailsPage(page) {
         }
     });
     book['locations'] = removeDuplicates(book);
-    console.log('Book = ' + JSON.stringify(book));
     return book;
 };
 
@@ -161,7 +160,6 @@ function parseSearchResultsPage(page) {
             publisher: publisher
         };
         searchResults.push(book);
-        console.log('Book ' + index + ' = ' + JSON.stringify(book));
     });
     return searchResults;
 };
