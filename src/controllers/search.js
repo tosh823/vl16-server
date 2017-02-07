@@ -25,14 +25,18 @@ router.get('/', cors(), function (req, res) {
                 var $ = cheerio.load(response.data);
                 var bookInfoPage = $('#catalogue_detail_biblio');
                 var results = [];
+                var itemList = false;
                 if (bookInfoPage.length > 0) {
                     var book = parseBookDetailsPage(response.data);
                     results.push(book);
+                    itemList = false;
                 }
                 else {
                     results = parseSearchResultsPage(response.data);
+                    itemList = true;
                 }
                 res.send({
+                    itemList: itemList,
                     data: results
                 });
                 console.log('Sent ' + results.length + ' books');
