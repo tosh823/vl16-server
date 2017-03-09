@@ -27,11 +27,13 @@ router.get('/', cors(), function (req, res) {
                 var results = [];
                 var itemList = false;
                 if (bookInfoPage.length > 0) {
+                    console.log('Parsing one page');
                     var book = parseBookDetailsPage(response.data);
                     results.push(book);
                     itemList = false;
                 }
                 else {
+                    console.log('Parsing many results');
                     results = parseSearchResultsPage(response.data);
                     itemList = true;
                 }
@@ -82,7 +84,7 @@ router.get('/book', cors(), function (req, res) {
 function parseBookDetailsPage(page) {
     var book = {};
     var $ = cheerio.load(page);
-    var bookInfo = $('#catalogue_detail_biblio').children('.tietue');
+    var bookInfo = $('#catalogue_detail_biblio').children('.record');
     var holdsInfo = $('.holdingst');
     book['title'] = $(bookInfo).find('.title').text();
     book['cover'] = $(bookInfo).find('.jokunen_image_container').children('img').attr('src');
@@ -142,7 +144,7 @@ function parseSearchResultsPage(page) {
     var searchResults = [];
     $(searchResultsTable).children('tr').each(function (index, element) {
         var info = $(element).find('.bibliocol');
-        var titleA = $(info, 'p').find('.nimeke');
+        var titleA = $(info, 'p').find('.title');
         var authorSpan = $(info, 'p').find('.author');
         var materialSpan = $(info, 'span').find('.results_summary');
         var languageSpan = $(info, 'span').find('.results_summary.language');
@@ -152,7 +154,6 @@ function parseSearchResultsPage(page) {
         var bookId = querystring.parse(href, '?')["biblionumber"];
         var author = $(authorSpan).text().trim();
         var materialType = $(materialSpan).children('img').attr('alt');
-        if (materialType !== 'kirja') return true;
         var language = $(languageSpan).children('img').attr('alt');
         var publisher = $(publisherSpan).text().trim();
         var book = {
@@ -163,6 +164,7 @@ function parseSearchResultsPage(page) {
             language: language,
             publisher: publisher
         };
+        console.log(JSON.stringify(book));
         searchResults.push(book);
     });
     return searchResults;
